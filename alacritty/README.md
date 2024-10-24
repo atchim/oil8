@@ -21,8 +21,8 @@ to `oil8.toml`.
 
 ### 📋 Copy the Color Specifications
 
-It is also possible to just copy the color specifications from the
-[`oil8.toml`] into the `alacritty.toml` configuration file.
+It is also possible to just copy the color specifications from [`oil8.toml`]
+into the `alacritty.toml` configuration file.
 
 [Alacritty]: https://alacritty.org/
 [`oil8.toml`]: oil8.toml

@@ -1,12 +1,14 @@
 # 🛢️ Oil 8
 
-A dark theme based on the [Oil 6][oil-6] color palette.
+A dark theme based on the [Oil 6](https://lospec.com/palette-list/oil-6) color
+palette.
 
 ## 🧩 Integration
 
 - [Alacritty](alacritty/README.md): A cross-platform, OpenGL terminal emulator
 - [Neovim](https://github.com/atchim/oil8.nvim): Vim-fork focused on
   extensibility and usability
+- [Polybar](polybar/README.md): A fast and easy-to-use status bar
 
 ## 🎨 Palette
 
@@ -52,5 +54,3 @@ A dark theme based on the [Oil 6][oil-6] color palette.
 | `byzantine`           | `#b22ab7` | `297 62 44` | `45  66 -45` |
 | `light_deep_pink`     | `#e557cd` | `310 73 61` | `59  68 -33` |
 | `persian_pink`        | `#fc83c5` | `327 95 75` | `70  53 -13` |
-
-[oil-6]: https://lospec.com/palette-list/oil-6
