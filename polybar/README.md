@@ -2,7 +2,8 @@
 
 ## 🎨 Installation
 
-The installation of Oil 8 for [Polybar] is based on color
+The installation of the Oil 8 theme for the [Polybar] status bar creation tool
+is based on color
 [variables](https://github.com/polybar/polybar/wiki/Configuration#custom-variables)
 defined in the [`oil8.ini`] file. To use the color definitions, just reference
 the colors via `${oil8.color-name}`, as shown in the example below.

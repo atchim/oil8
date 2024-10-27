@@ -2,9 +2,9 @@
 
 ## 🎨 Installation
 
-The installation of Oil 8 for the [Alacritty] terminal emulator is based on the
-[`oil8.toml`] configuration file, which contains the color specifications.
-Follow one of the methods below to install the Oil 8 theme for Alacritty.
+The installation of the Oil 8 theme for the [Alacritty] terminal emulator is
+based on the [`oil8.toml`] configuration file, which contains the color
+specifications. Follow one of the methods below to install Oil 8 for Alacritty.
 
 ### 🔗 Import the [`oil8.toml`] File (Recommended)
 
