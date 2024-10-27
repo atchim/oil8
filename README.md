@@ -6,6 +6,8 @@ palette.
 ## 🧩 Integration
 
 - [Alacritty](alacritty/README.md): A cross-platform, OpenGL terminal emulator
+- [bspwm](bspwm/README.md): A tiling window manager based on binary space
+  partitioning
 - [Neovim](https://github.com/atchim/oil8.nvim): Vim-fork focused on
   extensibility and usability
 - [Polybar](polybar/README.md): A fast and easy-to-use status bar
