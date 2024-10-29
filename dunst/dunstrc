@@ -1,0 +1,13 @@
+[global]
+background = "#1c1b34"
+foreground = "#e1e0c4"
+frame_color = "#292449"
+highlight = "#413aa1"
+
+[urgency_low]
+foreground = "#bdab87"
+frame_color = "#292449"
+
+[urgency_critical]
+foreground = "#f35e7c"
+frame_color = "#292449"
