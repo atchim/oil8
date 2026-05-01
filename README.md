@@ -12,15 +12,17 @@ palette.
 - [Neovim](https://github.com/atchim/oil8.nvim): Vim-fork focused on
   extensibility and usability
 - [Polybar](polybar/README.md): A fast and easy-to-use status bar
-- [Rofi](rofi/README.md): A window switcher, application launcher and dmenu
-  replacement
+- [qutebrowser](qutebrowser/README.md): A keyboard-driven, vim-like browser
+  based on Python and Qt
 - [zathura](zathura/README.md): A highly customizable and functional document
   viewer
 
 ## 🎨 Palette
 
+<!-- markdownlint-disable MD038 -->
+
 | Name                  | Hex       | HSL         | CIELAB       |
-|-----------------------|-----------|-------------|--------------|
+| --------------------- | --------- | ----------- | ------------ |
 | `eerie_black`         | `#171629` | `243 30 12` | ` 8   6 -12` |
 | `dark_gunmetal`       | `#1c1b34` | `242 31 15` | `11   8 -16` |
 | `space_cadet`         | `#292449` | `248 33 21` | `16  13 -22` |
