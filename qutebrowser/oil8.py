@@ -99,6 +99,7 @@ def draw(c):
   c.colors.hints.fg = p["bone"]
   c.colors.hints.match.fg = p["antique_fuchsia"]
   c.hints.border = f"1px solid {p['chinese_green']}"
+  c.hints.radius = 0
 
   # Key Hints
   # ---------
@@ -129,6 +130,7 @@ def draw(c):
   c.colors.prompts.fg = p["ecru"]
   c.colors.prompts.selected.bg = p["cyber_grape"]
   c.colors.prompts.selected.fg = p["bone"]
+  c.prompt.radius = 0
 
   # Status Bar
   # ----------
