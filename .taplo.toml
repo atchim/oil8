@@ -1,0 +1,7 @@
+[formatting]
+column_width = 79
+
+[[rule]]
+include = ['alacritty/oil8.toml']
+[rule.formatting]
+align_entries = true

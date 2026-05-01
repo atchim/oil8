@@ -8,7 +8,7 @@ command.
 
 > [!NOTE]
 > The `bspwmrc` file is typically an executable script beginning with a
-> [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)) that specifies a
+> [shebang](<https://en.wikipedia.org/wiki/Shebang_(Unix)>) that specifies a
 > [POSIX-compliant shell](https://en.wikipedia.org/wiki/Unix_shell#Bourne_shell)
 > (`#!/bin/sh`) or even a specific shell like
 > [Bash](https://www.gnu.org/software/bash/)
