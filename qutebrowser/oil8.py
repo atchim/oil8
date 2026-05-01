@@ -147,16 +147,12 @@ def draw(c):
 
   c.colors.statusbar.insert.bg = p["eerie_black"]
   c.colors.statusbar.insert.fg = p["bone"]
-
   c.colors.statusbar.normal.bg = p["eerie_black"]
   c.colors.statusbar.normal.fg = p["bone"]
-
   c.colors.statusbar.passthrough.bg = p["eerie_black"]
   c.colors.statusbar.passthrough.fg = p["bone"]
-
   c.colors.statusbar.private.bg = p["eerie_black"]
   c.colors.statusbar.private.fg = p["mauve"]
-
   c.colors.statusbar.progress.bg = p["bone"]
 
   c.colors.statusbar.url.error.fg = p["brink_pink"]
