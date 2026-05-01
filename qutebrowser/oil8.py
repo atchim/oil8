@@ -51,7 +51,7 @@ def draw(c):
   # ----------
 
   c.colors.completion.even.bg = p["eerie_black"]
-  c.colors.completion.fg = [p["ecru"], p["burnished_brown"], p["burnished_brown"]]
+  c.colors.completion.fg = [p["ecru"], p["burnished_brown"], p["dirty_brown"]]
   c.colors.completion.odd.bg = p["dark_gunmetal"]
   c.colors.completion.match.fg = p["chinese_green"]
 
