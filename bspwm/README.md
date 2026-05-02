@@ -3,25 +3,29 @@
 ## 🎨 Installation
 
 The installation of the Oil 8 theme for the [bspwm] tiling window manager is
-based on color configurations defined in the `bspwmrc` file with the `bspc`
-command.
+based on the [`oil8.sh`] script, which sets the border and pre-selection
+feedback colors via `bspc config`. Follow one of the methods below to install
+Oil 8 for bspwm.
 
-> [!NOTE]
-> The `bspwmrc` file is typically an executable script beginning with a
-> [shebang](<https://en.wikipedia.org/wiki/Shebang_(Unix)>) that specifies a
-> [POSIX-compliant shell](https://en.wikipedia.org/wiki/Unix_shell#Bourne_shell)
-> (`#!/bin/sh`) or even a specific shell like
-> [Bash](https://www.gnu.org/software/bash/)
-> (`#!/bin/bash`). However, any executable program, such as
-> [Python](https://www.python.org/), can be used as the interpreter. As a
-> result, the method for setting color configurations may vary depending on the
-> interpreter defined by the shebang.
+### 🔗 Source the [`oil8.sh`] File (Recommended)
 
-If the `bspwmrc` file has a shebang using a shell interpreter like `sh`,
-`bash`, of `fish`, just copy the content of the [`bspwmrc`] file into the
-configuration file for bspwm. Otherwise, adapt the color configuration commands
-in [`bspwmrc`] to match the syntax and conventions of the specified
-language/interpreter.
+To apply the Oil 8 colors, source [`oil8.sh`] from the `bspwmrc` file, as shown
+below. Replace the path with the correct location of [`oil8.sh`].
+
+```sh
+. path/to/oil8.sh
+```
+
+Symlinking [`oil8.sh`] is recommended over copying, since updates to the theme
+will flow in with a `git pull` on this repository. This method requires
+`bspwmrc` to use a POSIX-compliant shell interpreter (the default on most
+distributions).
+
+### 📋 Copy the Color Configuration
+
+It is also possible to just copy the `bspc config` commands from [`oil8.sh`]
+into the `bspwmrc` file. If `bspwmrc` uses a non-shell interpreter (e.g.
+[Python](https://www.python.org/)), adapt the commands to that language.
 
 [bspwm]: https://github.com/baskerville/bspwm
-[`bspwmrc`]: bspwmrc
+[`oil8.sh`]: oil8.sh
