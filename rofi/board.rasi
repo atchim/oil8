@@ -1,0 +1,100 @@
+@theme "oil8"
+
+* {
+  background-color: @eerie-black;
+  text-color: @bone;
+}
+
+button {
+  background-color: transparent;
+  text-color: @ecru;
+}
+
+button.active {
+  text-color: @chinese-green;
+}
+
+button.selected {
+  background-color: @space-cadet;
+  text-color: @bone;
+}
+
+button.urgent {
+  text-color: @brink-pink;
+}
+
+case-indicator {
+  text-color: @cyber-grape;
+}
+
+element {
+  highlight: @chinese-green;
+  text-color: @ecru;
+}
+
+element.alternate.active, element.normal.active, element.selected.active {
+  highlight: @violets-are-blue;
+  text-color: @chinese-green;
+}
+
+element.alternate.urgent, element.normal.urgent, element.selected.urgent {
+  highlight: @turquoise;
+  text-color: @brink-pink;
+}
+
+element.selected {
+  highlight: @violets-are-blue;
+  background-color: @space-cadet;
+  text-color: @bone;
+}
+
+element.selected.active {
+  background-color: @space-cadet;
+}
+
+element-text {
+  background-color: transparent;
+  highlight: inherit;
+  text-color: inherit;
+}
+
+entry {
+  text-color: @mantis;
+}
+
+error-message {
+  background-color: @dark-gunmetal;
+  text-color: @brink-pink;
+}
+
+inputbar {
+  spacing: 1ch;
+}
+
+message {
+  background-color: @dark-gunmetal;
+}
+
+mode-switcher {
+  spacing: 1ch;
+}
+
+prompt {
+  text-color: @violets-are-blue;
+}
+
+scrollbar {
+  background-color: @dark-gunmetal;
+  handle-color: @cyber-grape;
+}
+
+textbox {
+  background-color: @dark-gunmetal;
+  text-color: @bone;
+}
+
+window {
+  border: 2px;
+  border-color: @space-cadet;
+  border-radius: 0;
+}

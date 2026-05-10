@@ -1,0 +1,28 @@
+@theme "board"
+
+element {
+  padding: 0 0.5ch;
+}
+
+entry {
+  expand: false;
+  width: 24ch;
+}
+
+horibox {
+  children: [prompt, entry, listview];
+  orientation: horizontal;
+  spacing: 1ch;
+}
+
+listview {
+  layout: horizontal;
+}
+
+window {
+  anchor: south;
+  border: 1 0 0;
+  children: [horibox];
+  location: south;
+  width: 100%;
+}

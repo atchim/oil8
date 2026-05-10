@@ -14,6 +14,8 @@ palette.
 - [Polybar](polybar/README.md): A fast and easy-to-use status bar
 - [qutebrowser](qutebrowser/README.md): A keyboard-driven, vim-like browser
   based on Python and Qt
+- [rofi](rofi/README.md): A window switcher, application launcher and dmenu
+  replacement
 - [zathura](zathura/README.md): A highly customizable and functional document
   viewer
 
