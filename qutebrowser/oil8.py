@@ -95,10 +95,10 @@ def draw(c):
   # Hints
   # -----
 
-  c.colors.hints.bg = p["eerie_black"]
-  c.colors.hints.fg = p["bone"]
-  c.colors.hints.match.fg = p["antique_fuchsia"]
-  c.hints.border = f"1px solid {p['chinese_green']}"
+  c.colors.hints.bg = p["violets_are_blue"]
+  c.colors.hints.fg = p["eerie_black"]
+  c.colors.hints.match.fg = p["pixie_powder"]
+  c.hints.border = f"1px solid {p['violets_are_blue']}"
   c.hints.radius = 0
 
   # Key Hints
